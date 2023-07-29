@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/TeamProject-HTML-CSS/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simply Chocolate</title>
+    <!-- Нормалізація стилів -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    
+    <script type="module" crossorigin src="/TeamProject-HTML-CSS/assets/index-dc72a93f.js"></script>
+    <link rel="stylesheet" href="/TeamProject-HTML-CSS/assets/index-ebb7b43d.css">
+  </head>
+  <body>
+    <!-- Alona Karas -->
+    <header class="header" id="header">
+  <div class="container header-container">
+    <nav class="header-nav">
+      <a class="header-logo" href="./index.html">
+        <span class="header-logo-span">SIMPLY&nbsp;</span>CHOCOLATE
+        <svg class="header-logo-icon" width="21" height="21">
+          <use href="/TeamProject-HTML-CSS/assets/sprite-76b01e8c.svg#main-logo-icon"></use>
+        </svg>
+      </a>
+      <ul class="header-list list">
+        <li class="header-list-item">
+          <a href="#header" class="header-list-link">Home</a>
+        </li>
+        <li class="header-list-item">
+          <a href="#how-its-made" class="header-list-link">How it's made?</a>
+        </li>
+        <li class="header-list-item">
+          <a href="#our-products" class="header-list-link">Our products</a>
+        </li>
+        <li class="header-list-item">
+          <a href="#top-sellers" class="header-list-link">Top sellers</a>
+        </li>
+        <li class="header-list-item">
+          <a href="#chocolate-is-loved" class="header-list-link">Chocolate is loved</a>
+        </li>
+      </ul>
+    </nav>
+
+    <ul class="header-socials-list list">
+      <li class="header-socials-item">
+        <a
+          class="header-socials-link"
+          href="https://instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label=""
+        >
+          <svg width="24" height="24">
+            <use href="/TeamProject-HTML-CSS/assets/sprite-76b01e8c.svg#instagram-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-socials-item">
+        <a
+          class="header-socials-link"
+          href="https://twitter.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label=""
+        >
+          <svg width="24" height="24">
+            <use href="/TeamProject-HTML-CSS/assets/sprite-76b01e8c.svg#twitter-icon"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+    <button
+      class="header-menu-button js-open-menu"
+      type="button"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+      aria-label="menu button"
+    >
+      <svg class="menu-button-icon" width="24" height="16">
+        <use href="/TeamProject-HTML-CSS/assets/sprite-76b01e8c.svg#burger-icon"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+
+    <main>
+      <!-- Anna Ponizenko -->
+      <section class="hero">
+  <div class="container">
+    <div class="hero-container">
+      <h1 class="visually-hidden">Chocolate</h1>
+
+      <p class="hero-subtitle">
+        Treat yourself or a loved one to our finest ingredients for a moment of
+        pure delight!
+      </p>
+
+      <div class="btns-wrapper">
+        <button class="hero-buy-btn js-open-modal" type="button" data-modal="4">
+          Buy now
+        </button>
+        <a class="hero-made-anchor" href="#how-its-made">
+          How it&apos;s made
+        </a>
+        <a class="hero-scroll" href="#footer"
+          ><span class="scroll-txt">scroll down</span>
+          <svg class="hero-icon" width="22" height="22">
+            <use href="/TeamProject-HTML-CSS/assets/sprite-76b01e8c.svg#scroll-down-icon"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      <!-- Anton Vasyliev -->
+      <section class="advantages">
+  <div class="container">
+    <h2 class="title-advantages visually-hidden">Advantages</h2>
+    <ul class="advantage-list">
+      <li class="advantage-list-item">
+        <div class="advantage-icon-container">
+          <svg class="advantage-icon">
+            <use href="/TeamProject-HTML-CSS/assets/sprite-76b01e8c.svg#chocolate-icon"></use>
+          </svg>
+        </div>
+        <h3 class="advantage-title">Unsurpassed taste</h3>
+        <p class="avd-paragraph">
+          Crafted with the finest quality cocoa beans and a dedication to
+          perfection, each bite is a decadent experience that simply cannot be
+          matched. Savor the richness and complexity of our Unsurpassed Taste
+          and discover a new level of chocolate bliss.
+        </p>
+      </li>
+      <li class="advantage-list-item">
+        <div class="advantage-icon-container">
+          <svg class="advantage-icon">
+            <use href="/TeamProject-HTML-CSS/assets/sprite-76b01e8c.svg#coin-icon"></use>
+          </svg>
+        </div>
+        <h3 class="advantage-title">Affordable price</h3>
+        <p class="avd-paragraph">
+          Indulge in high-quality chocolate without breaking the bank with
+          Simply Chocolate's selection of affordable treats. Enjoy
+          mouth-watering truffles and velvety chocolate bars without sacrificing
+          taste or quality. Browse our selection and indulge in affordable
+          luxury today.
+        </p>
+      </li>
+      <li class="advantage-list-item">
+        <div class="advantage-icon-container">
+          <svg class="advantage-icon">
+            <use href="/TeamProject-HTML-CSS/assets/sprite-76b01e8c.svg#spoon-icon"></use>
+          </svg>
+        </div>
+        <h3 class="advantage-title">Own production</h3>
+        <p class="avd-paragraph">
+          We take pride in our own production process, ensuring that every step
+          is carefully crafted to perfection. From selecting the finest
+          ingredients to handcrafting each piece, our attention to detail is
+          evident in every bite.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+      <!-- Elizabeth Balaklei -->
+      <section class="components">
+    <div class="container">
+    <div class="components-block">
+        <h2 class="components-title">
+        IT ALL ADDS UP TO ONE EXCEPTIONAL
+        <span class="title-accent">TASTE</span> SENSATION
+        </h2>
+        <p class="components-text">
+        At Simply Chocolate, we believe that the secret to exceptional chocolate
+        is in the details. From the sourcing of the finest ingredients to the
+        careful crafting of each individual piece, every step of our process
+        adds up to one exceptional taste sensation.
+        </p>
+    </div>
+    <ul class="components-list list">
+        <li class="card-wrap forward">
+        <div class="components-item item-orange">
+            <div class="img-wrap">
+                <picture>
+                <source
+                    srcset="/TeamProject-HTML-CSS/assets/milk-chocolate-desktop-69b92b85.png 1x, /TeamProject-HTML-CSS/assets/milk-chocolate-desktop@2x-364bd3cf.png 2x"
+                    media="(min-width: 768px)"/>
+                <source
+                    srcset="/TeamProject-HTML-CSS/assets/milk-chocolate-mobile-05ef0cb4.png 1x, /TeamProject-HTML-CSS/assets/milk-chocolate-mobile@2x-ad983ab3.png 2x"
+                    media="(max-width: 767px)"/>
+                <img
+                    class="components-img img"
+                    src="/TeamProject-HTML-CSS/assets/milk-chocolate-desktop-69b92b85.png"
+                    alt=""/>
+                </picture>
+            </div>
+            <p class="components-item-name name-white">MILK CHOCOLATE</p>
+    
+            <div class="about">
+                <p class="about-name">MILK CHOKOLATE</p>
+                <div class="about-button">
+                <p class="button-box button-orange">chocolate</p>
+                <p class="button-box button-white">the benefits</p>
+                </div>
+    
+                <div class="about-text-wrap">
+                    <p class="about-text">
+                        Milk chocolate is a solid chocolate confectionery containing cocoa,
+                        sugar and milk. It is the most consumed type of chocolate. Chocolate
+                        was originally sold and consumed as a beverage in pre-Columbian
+                        times. Although four-fifths of all milk chocolate is sold in the
+                        United States and Europe, increasingly large amounts are consumed in
+                        China and Latin America.</p>
+                </div>
+            </div>
+        </div>
+        <div class="components-item item-white">
+            <div class="img-wrap">
+                <picture>
+                <source
+                    srcset="/TeamProject-HTML-CSS/assets/milk-desktop-7d5a7064.png 1x, /TeamProject-HTML-CSS/assets/milk-desktop@2x-0620d801.png 2x"
+                    media="(min-width: 768px)"/>
+                <source
+                    srcset="/TeamProject-HTML-CSS/assets/milk-mobile-e6ca139f.png 1x, /TeamProject-HTML-CSS/assets/milk-mobile@2x-5f88e1df.png 2x"
+                    media="(max-width: 767px)"/>
+                <img
+                    class="components-img img"
+                    src="/TeamProject-HTML-CSS/assets/milk-desktop-7d5a7064.png"
+                    alt=""/>
+                </picture>
+            </div>
+            <p class="components-item-name">MILK</p>
+    
+            <div class="about">
+                <p class="about-name">MILK</p>
+                <div class="about-button">
+                <p class="button-box button-orange">milk</p>
+                <p class="button-box button-white">the benefits</p>
+                </div>                
+                <div class="about-text-wrap">
+                    <p class="about-text">
+                        Milk is a white liquid food produced by the mammary glands of
+                        mammals. It is the primary source of nutrition for young mammals
+                        (including breastfed human infants) before they are able to digest
+                        solid food.Early-lactation milk, which is called colostrum, contains
+                        antibodies that strengthen the immune system, and thus reduces the
+                        risk of many diseases. Milk contains many nutrients, including
+                        protein and lactose.</p>
+                </div>
+            </div>
+        </div>
+        </li>
+
+
+        <li class="card-wrap reverce">
+        <div class="components-item item-black">
+            <div class="img-wrap">
+                <picture>
+                <source
+                    srcset="/TeamProject-HTML-CSS/assets/hazelnuts-desktop-354917ba.png 1x, /TeamProject-HTML-CSS/assets/hazelnuts-desktop@2x-a99d7d9f.png 2x"
+                    media="(min-width: 768px)"/>
+                <source
+                    srcset="/TeamProject-HTML-CSS/assets/hazelnuts-mobile-ad25366f.png 1x, /TeamProject-HTML-CSS/assets/hazelnuts-mobile@2x-b8c65ef9.png 2x"
+                    media="(max-width: 767px)"/>
+                <img
+                    class="components-img img"
+                    src="/TeamProject-HTML-CSS/assets/hazelnuts-desktop-354917ba.png"
+                    alt=""/>
+                </picture>
+            </div>
+            <p class="components-item-name name-white">NUTS</p>
+    
+            <div class="about">
+                <p class="about-name">NUTS</p>
+                <div class="about-button">
+                <p class="button-box button-orange">nuts</p>
+                <p class="button-box button-white">the benefits</p>
+                </div>
+    
+                <div class="about-text-wrap">
+                    <p class="about-text">
+                        Almonds, pistachios, and walnuts are some types of nuts that contain
+                        healthy nutrients. When eaten as part of a nutrient-dense diet,
+                        these 9 nuts may offer benefits such as reducing your risk of heart
+                        disease. They’re a good source of fiber, healthy fats, and plant
+                        protein. Plus, they’re great on their own, paired with fruit, or
+                        added to dishes like salads, desserts, and grains.
+                        </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="components-item item-white">
+            <div class="img-wrap">
+                <picture>
+                <source
+                    srcset="/TeamProject-HTML-CSS/assets/chocolate-crumbs-desktop-b4c617e7.png 1x, /TeamProject-HTML-CSS/assets/chocolate-crumbs-desktop@2x-3529f7d0.png 2x"
+                    media="(min-width: 768px)"/>
+                <source
+                    srcset="/TeamProject-HTML-CSS/assets/chocolate-crumbs-mobile-4f6771d3.png 1x, /TeamProject-HTML-CSS/assets/chocolate-crumbs-mobile@2x-c7577f28.png 2x"
+                    media="(max-width: 767px)"/>
+                <img
+                    class="components-img img"
+                    src="/TeamProject-HTML-CSS/assets/chocolate-crumbs-desktop-b4c617e7.png"
+                    alt=""/>
+                </picture>
+            </div>
+            <p class="components-item-name">SEMI - SWEET CHOCOLATE</p>
+    
+            <div class="about">
+                <p class="about-name">SEMI - SWEET CHOCOLATE</p>
+                <div class="about-button">
+                <p class="button-box button-orange">sweet chocolate</p>
+                <p class="button-box button-white">the benefits</p>
+                </div>
+    
+                <div class="about-text-wrap">
+                    <p class="about-text">
+                        Semi-sweet chocolate has a cocoa solid content of 35 to 65%. One of
+                        the best ways to gain an understanding of this type of chocolate is
+                        to compare it to a different type of chocolate. Semisweet is darker
+                        than milk chocolate. In a taste comparison, it has a slightly bitter
+                        taste whereas milk chocolate is sweeter and more mellow. This
+                        delectable flavor of chocolate is very versatile.
+                        </p>
+                </div>
+            </div>
+        </div>
+
+        </li>        
+    </ul>
+    </div>
+</section>
+
+
+      <!-- Nazar Kotiash -->
+      <section class="how-its-made" id="how-its-made">
+  <div class="container">
+    <h2 class="how-its-made-title">
+      HOW IT’S
+      <span class="how-its-made-title-text">made?</span>
+    </h2>
+    <div class="how-its-made-box">
+      <iframe
+        class="chocolate-video"
+        src="https://www.youtube.com/embed/6nXv-Np-Bc4"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <div class="how-its-made-description">
+        <h3 class="how-its-made-descriptio-title">
+          Try our chocolates today and discover the perfect balance of flavor
+        </h3>
+        <ul class="how-its-made-description-list">
+          <li class="how-its-made-description-item">
+            <p class="how-its-made-description-item-text">
+              Heat the milk in a saucepan without bringing it to a boil. Add
+              sugar and cocoa powder.
+            </p>
+          </li>
+          <li class="how-its-made-description-item">
+            <p class="how-its-made-description-item-text">
+              At the same time, prepare a water bath. Melt the butter on it.
+            </p>
+          </li>
+          <li class="how-its-made-description-item">
+            <p class="how-its-made-description-item-text">
+              "Mix" the milk mixture and already liquid butter. Mix thoroughly
+              with a silicone spatula so that the mass becomes uniform and
+              silky.
+            </p>
+          </li>
+          <li class="how-its-made-description-item">
+            <p class="how-its-made-description-item-text">
+              Heat the mixture over low heat, letting it barely boil.
+            </p>
+          </li>
+          <li class="how-its-made-description-item">
+            <p class="how-its-made-description-item-text">
+              Pour the chocolate into special containers (can be replaced with
+              ice molds). Allow to cool and harden.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      <!-- Ruslan -->
+      <section class="section-products" id="our-products">
+    <div class="container">
+        <h2 class="products-title">Our <span class="products-title-orange">pRODUCTS</span></h2>
+
+        <div class="products-thumb-swiper">
+            <div class="swiper products">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide products-item">
+                        <div class="products-thumb">
+                            <img 
+                            srcset="/TeamProject-HTML-CSS/assets/orange-chocolate@2x-06126a70.jpg 2x"
+                            src="/TeamProject-HTML-CSS/assets/orange-chocolate-2d3efe1a.jpg"
+                            alt="bar of chocolate"
+                            width="230"
+                            height="201"
+                            />
+                            
+                            <h3 class="products-name">orange</h3>
+                            <p class="products-text">Dark chocolate</p>
+                            <button class="products-btn" type="button">45UAH</button>
+                        </div>
+                    </li>
+    
+                    <li class="swiper-slide products-item">
+                        <div class="products-thumb">
+                            <img 
+                            srcset="/TeamProject-HTML-CSS/assets/apple-cranberry-chocolate@2x-14ab71c6.jpg 2x"
+                            src="/TeamProject-HTML-CSS/assets/apple-cranberry-chocolate-e69fb75f.jpg"
+                            alt="bar of chocolate"
+                            width="230"
+                            height="201"
+                            />
+                        
+                            <h3 class="products-name">APPLE&CRANBERRY</h3>
+                            <p class="products-text">Milk chocolate</p>
+                            <button class="products-btn" type="button">50 UAH</button>
+                        </div>
+                    </li>
+    
+                    <li class="swiper-slide products-item">
+                        <div class="products-thumb">
+                            <img 
+                            srcset="/TeamProject-HTML-CSS/assets/lime-sea-salt-chocolate@2x-50e6915a.jpg 2x"
+                            src="/TeamProject-HTML-CSS/assets/lime-sea-salt-chocolate-6d904058.jpg"
+                            alt="bar of chocolate"
+                            width="230"
+                            height="201"
+                            />
+                        
+                            <h3 class="products-name">lime&sea salt</h3>
+                            <p class="products-text">Dark chocolate</p>
+                            <button class="products-btn" type="button">66 UAH</button>
+                        </div>
+                    </li>
+    
+                    <li class="swiper-slide products-item">
+                        <div class="products-thumb">
+                            <img 
+                            srcset="/TeamProject-HTML-CSS/assets/pineapple-chocolate@2x-88739eff.jpg 2x"
+                            src="/TeamProject-HTML-CSS/assets/pineapple-chocolate-902c12e8.jpg"
+                            alt="bar of chocolate"
+                            width="230"
+                            height="201"
+                            />
+                        
+                            <h3 class="products-name">pineapple</h3>
+                            <p class="products-text">Dark chocolate</p>
+                            <button class="products-btn" type="button">54 UAH</button>
+                        </div>
+                    </li>
+    
+                    <li class="swiper-slide products-item">
+                        <div class="products-thumb">
+                            <img 
+                            srcset="/TeamProject-HTML-CSS/assets/classic-milk-chocolate@2x-1548efd9.jpg 2x"
+                            src="/TeamProject-HTML-CSS/assets/classic-milk-chocolate-46ffbd9d.jpg"
+                            alt="bar of chocolate"
+                            width="230"
+                            height="201"
+                            />
+                        
+                            <h3 class="products-name">Classic</h3>
+                            <p class="products-text">Milk chocolate</p>
+                            <button class="products-btn" type="button">45 UAH</button>
+                        </div>
+                    </li>
+    
+                    <li class="swiper-slide products-item">
+                        <div class="products-thumb">
+                            <img 
+                            srcset="/TeamProject-HTML-CSS/assets/honey-chocolate@2x-693bad0a.jpg 2x"
+                            src="/TeamProject-HTML-CSS/assets/honey-chocolate-beb28752.jpg"
+                            alt="bar of chocolate"
+                            width="230"
+                            height="201"
+                            />
+                        
+                            <h3 class="products-name">honey</h3>
+                            <p class="products-text">Milk chocolate</p>
+                            <button class="products-btn" type="button">50 UAH</button>
+                        </div>
+                    </li>
+    
+                    <li class="swiper-slide products-item">
+                        <div class="products-thumb">
+                            <img 
+                            srcset="/TeamProject-HTML-CSS/assets/roasted-fruits-chocolate@2x-4b2753a5.jpg 2x"
+                            src="/TeamProject-HTML-CSS/assets/roasted-fruits-chocolate-077b5526.jpg"
+                            alt="bar of chocolate"
+                            width="230"
+                            height="201"
+                            />
+                        
+                            <h3 class="products-name">Roasted fruits</h3>
+                            <p class="products-text">Dark chocolate</p>
+                            <button class="products-btn" type="button">66 UAH</button>
+                        </div>
+                    </li>
+                    
+                    <li class="swiper-slide products-item">
+                        <div class="products-thumb">
+                            <img 
+                            srcset="/TeamProject-HTML-CSS/assets/classic-white-chocolate@2x-bdc42cb6.jpg 2x"
+                            src="/TeamProject-HTML-CSS/assets/classic-white-chocolate-2ffa481f.jpg"
+                            alt="bar of chocolate"
+                            width="230"
+                            height="201"
+                            />
+                        
+                            <h3 class="products-name">Classic</h3>
+                            <p class="products-text">White chocolate</p>
+                            <button class="products-btn" type="button">54 UAH</button>
+                        </div>
+                    </li>
+                    
+                </ul>
+                
+            </div>   
+            <div class="swiper-pagination"></div> 
+        </div>    
+
+    </div>
+</section>
+
+      <!-- Vladyslav Parkhomenko -->
+      <section class="top-sellers" id="top-sellers">
+  <div class="container">
+    <h2 class="top-sellers-titile">top <span class="sellers">sellers</span> </h2>
+    
+    <!-- <ul class="top-sellers-ul">
+      <li class="top-sellers-li mb">
+        <img
+          srcset="./img/top-sellers/chocolate-ingredients-desktop@2x.jpg 2x"
+          src="./img/top-sellers/chocolate-ingredients-desktop.jpg"
+          class="top-sellers-img"
+          alt="img1"
+          width="368"
+        />
+        <p class="top-sellers-titile-mobile">Crazy enough chocolate originates from a bean just like the coffee bean called Cacao. Cacao has been around for thousands of years and was first discovered by the Native American tribe called the Mayans.</p>
+      </li>
+      
+      
+      
+      <li class="top-sellers-li none">
+        <img
+          srcset="./img/top-sellers/jenga-chocolate-desktop@2x.jpg 2x"
+          src="./img/top-sellers/jenga-chocolate-desktop.jpg"
+          class="top-sellers-img"
+          alt="img2"
+          width="368"
+        />
+        <p></p>
+      </li>
+      <li class="top-sellers-li">
+        <img
+          srcset="./img/top-sellers/milk-mint-chocolate-desktop@2x.jpg 2x"
+          src="./img/top-sellers/milk-mint-chocolate-desktop.jpg"
+          class="top-sellers-img"
+          alt="img3"
+          width="368"
+        />
+        <p></p>
+      </li>
+    </ul> -->
+    <ul class="top-sellers-ul">
+      <li class="top-sellers-li mb">
+        <picture>
+          <source
+            srcset="/TeamProject-HTML-CSS/assets/chocolate-ingredients-desktop-5e806c02.jpg 1x, /TeamProject-HTML-CSS/assets/chocolate-ingredients-desktop@2x-d9a15fbd.jpg 2x"
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="/TeamProject-HTML-CSS/assets/chocolate-ingredients-tablet-659408e6.jpg 1x, /TeamProject-HTML-CSS/assets/chocolate-ingredients-tablet@2x-f0c107a5.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/TeamProject-HTML-CSS/assets/chocolate-ingredients-mobile-8344cb6c.jpg 1x, /TeamProject-HTML-CSS/assets/chocolate-ingredients-mobile@2x-88ca2a9f.jpg 2x"
+            media="(min-width: 375px)"
+          />
+          <img
+            src="/TeamProject-HTML-CSS/assets/chocolate-ingredients-mobile-8344cb6c.jpg"
+            alt="chocolate-ingredients"
+            class="top-sellers-img"
+          />
+        </picture>
+        <p class="top-sellers-titile-mobile">Crazy enough chocolate originates from a bean just like the coffee bean called Cacao. Cacao has been around for thousands of years and was first discovered by the Native American tribe called the Mayans.</p>
+      </li>
+      <li class="top-sellers-li none">
+        <picture>
+          <source
+            srcset="/TeamProject-HTML-CSS/assets/milk-mint-chocolate-desktop-f30cf4c9.jpg 1x, /TeamProject-HTML-CSS/assets/milk-mint-chocolate-desktop@2x-d969634e.jpg 2x"
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="/TeamProject-HTML-CSS/assets/milk-mint-chocolate-tablet-587aa654.jpg 1x, /TeamProject-HTML-CSS/assets/milk-mint-chocolate-tablet@2x-f5bcb700.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/TeamProject-HTML-CSS/assets/milk-mint-chocolate-mobile-c0b68e68.jpg 1x, /TeamProject-HTML-CSS/assets/milk-mint-chocolate-mobile@2x-ad1daf9a.jpg 2x"
+            media="(min-width: 375px)"
+          />
+          <img
+            src="/TeamProject-HTML-CSS/assets/milk-mint-chocolate-mobile-c0b68e68.jpg"
+            alt="jenga-chocolate"
+            class="top-sellers-img"
+          />
+        </picture>
+      </li>
+      <li class="top-sellers-li">
+        <picture>
+          <source
+            srcset="/TeamProject-HTML-CSS/assets/jenga-chocolate-desktop-3a4aba0c.jpg 1x, /TeamProject-HTML-CSS/assets/jenga-chocolate-desktop@2x-1a642081.jpg 2x"
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="/TeamProject-HTML-CSS/assets/jenga-chocolate-desktop-3a4aba0c.jpg 1x, /TeamProject-HTML-CSS/assets/jenga-chocolate-desktop@2x-1a642081.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/TeamProject-HTML-CSS/assets/jenga-chocolate-desktop-3a4aba0c.jpg 1x, /TeamProject-HTML-CSS/assets/jenga-chocolate-desktop@2x-1a642081.jpg 2x"
+            media="(min-width: 375px)"
+          />
+          <img
+            src="/TeamProject-HTML-CSS/assets/jenga-chocolate-desktop-3a4aba0c.jpg"
+            alt="jenga-chocolate"
+            class="top-sellers-img"
+          />
+        </picture>
+      </li>
+    </ul>
+    <div class="top-sellers-box">
+      <p class="top-sellers-text">
+        Crazy enough chocolate originates from a bean just like the coffee bean
+        called Cacao. Cacao has been around for thousands of years and was first
+        discovered by the Native American tribe called the Mayans.
+      </p>
+      <button class="top-sellers-input js-open-modal" data-modal="4" type="button">
+       Buy now
+    </button>
+    </div>
+  </div>
+</section>
+
+
+      <!-- Александр Юрьев -->
+      <section class="reviews" id="chocolate-is-loved">
+  <div class="container">
+    <h2 class="title-reviews"><span>Chocolate</span> is loved</h2>
+
+    <ul class="reviews-list list">
+      <li class="reviews-item">
+        <img
+          width="80"
+          height="80"
+          class="reviews-img"
+          srcset="/TeamProject-HTML-CSS/assets/victoria-dobrzhanska-2673d193.png 1x, /TeamProject-HTML-CSS/assets/victoria-dobrzhanska@2x-674a04bf.png 2x"
+          src="/TeamProject-HTML-CSS/assets/victoria-dobrzhanska-2673d193.png"
+          alt="Photo"
+        />
+        <h2 class="reviews-name">Victoria Dobrzhanska</h2>
+        <p class="reviews-text">
+          I love this chocolate bar. Perfect combination of light crispy wafer,
+          covered in a thin layer chocolate.
+        </p>
+      </li>
+      <li class="reviews-item">
+        <img
+          width="80"
+          height="80"
+          class="reviews-img"
+          srcset="data:image/png;base64,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 1x, /TeamProject-HTML-CSS/assets/nazar-babenko@2x-6643c5e2.png 2x"
+          src="data:image/png;base64,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"
+          alt="Photo"
+        />
+        <h2 class="reviews-name">Nazar Babenko</h2>
+        <p class="reviews-text">
+          This chocolate confection is a delight! A delight! The wafer is light
+          and crisp, the hazelnut cream is smooth, and the chocolate is good.
+        </p>
+      </li>
+      <li class="reviews-item">
+        <img
+          width="80"
+          height="80"
+          class="reviews-img"
+          srcset="/TeamProject-HTML-CSS/assets/olena-kampusch-dc6ecfdf.png 1x, /TeamProject-HTML-CSS/assets/olena-kampusch@2x-d578994c.png 2x"
+          src="/TeamProject-HTML-CSS/assets/olena-kampusch-dc6ecfdf.png"
+          alt="Photo"
+        />
+        <h2 class="reviews-name">Olena Kampusch</h2>
+        <p class="reviews-text">
+          Chocolate is a family favourite treat. Love the delicious smooth
+          chocolate and the creaminess inside. The wafer is soft but crunchy.
+        </p>
+      </li>
+    </ul>
+    <div class="slider-buttons">
+      <ul class="slider-buttons-list">
+        <li class="slider-buttons-item"></li>
+        <li class="slider-buttons-item"></li>
+        <li class="slider-buttons-item"></li>
+        <li class="slider-buttons-item"></li>
+      </ul>
+    </div>
+
+    <!-- <div class="swiper-reviews">
+        <div class="swiper-wrapper-reviews">
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          ...
+        </div>
+       
+        <div class="swiper-pagination"></div>
+      </div>  -->
+
+    <button type="button" class="btn-reviews js-open-modal" data-modal="1">
+      Leave a review
+    </button>
+  </div>
+  <div class="backdrop-reviews" data-modal>
+    <div class="modal" data-modal="1">
+      <button type="button" class="reviews-modal-btn js-modal-close">
+        <svg class="reviews-svg" width="28" height="28">
+          <use href="/TeamProject-HTML-CSS/assets/sprite-76b01e8c.svg#x-close-icon"></use>
+        </svg>
+      </button>
+      <h2 class="reviews-modal-title">
+        LEAVE A REVIEW ABOUT<span>OUR CHOCOLATE</span>
+      </h2>
+      <form>
+        <ul class="modal-reviews-list list">
+          <li class="modal-reviews-item">
+            <label class="modal-reviews-label" for="name">
+              <input
+                class="modal-reviews-input"
+                type="text"
+                name="name"
+                id="name"
+                pattern="[a-zA-Z]+"
+                placeholder="Name"
+                required
+              />
+            </label>
+          </li>
+          <li class="modal-reviews-item">
+            <label class="modal-reviews-label" for="email">
+              <input
+                class="modal-reviews-input"
+                type="email"
+                name="email"
+                id="email"
+                pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$"
+                placeholder="Email"
+                required
+              />
+            </label>
+          </li>
+          <li class="modal-reviews-item">
+            <input
+              class="modal-reviews-input-tel"
+              type="tel"
+              name="tel"
+              id="tel"
+              pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+              placeholder="Phone number"
+              required
+            />
+            <p class="for-tel">+380</p>
+          </li>
+
+          <li class="modal-reviews-item">
+            <label class="modal-reviews-label" for="comment"></label>
+            <textarea
+              class="reviews-comment"
+              name="comment"
+              id="comment"
+              cols="30"
+              rows="10"
+              placeholder="Enter text"
+            ></textarea>
+          </li>
+        </ul>
+        <button type="submit" class="reviews-btn-modal-second">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="overlay js-overlay-modal"></div>
+</section>
+
+
+      <!-- Анна -->
+      <section class="subscribe" id="subscribe">
+  <div class="container">
+    <h2 class="subscribe_title">EXPLORE OUR NEW CHOCOLATE FIRST</h2>
+    <p class="subscribe_text">
+      From the velvety texture to the rich and complex flavor, our New Chocolate
+      is a true indulgence that will leave you craving more. Made with only the
+      finest ingredients and handcrafted with the utmost care, each piece is a
+      work of art that is sure to please.
+    </p>
+    <button class="subscribe_button js-open-modal" data-modal="5" type="button">
+      Subscribe
+    </button>
+  </div>
+</section>
+
+<div class="overlay js-overlay-modal"></div>
+
+<form
+  class="subscribe-modal__form modal"
+  data-modal="5"
+  name="subscribe-modal"
+  autocomplete="on"
+>
+  <div class="subscribe-modal__background">
+    <button type="button" class="subscribe-modal__button js-modal-close">
+      <svg class="subscribe-modal__icon" width="24" height="24">
+        <use href="/TeamProject-HTML-CSS/assets/sprite-76b01e8c.svg#menu-modal-close-icon"></use>
+      </svg>
+    </button>
+  </div>
+  <div class="subscribe-modal">
+    <h2 class="subscribe-modal__title">
+      Explore our <br /><span class="subscribe-modal__span">new chocolate</span>
+      first!
+    </h2>
+    <div class="subscribe-modal__position">
+      <input
+        class="subscribe-modal__input"
+        type="email"
+        name="email"
+        required
+        pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$"
+        placeholder="Enter your email"
+      />
+      <button class="subscribe-modal__submit" type="submit">Submit</button>
+    </div>
+  </div>
+</form>
+
+<form autocomplete="on" class="buy-now-modal__form modal" data-modal="4">
+  <button type="button" class="buy-now-modal__close js-modal-close">
+    <svg width="24" height="24">
+      <use href="/TeamProject-HTML-CSS/assets/sprite-76b01e8c.svg#menu-modal-close-icon"></use>
+    </svg>
+  </button>
+  <h2 class="buy-now-modal__title">
+    BUY <span class="buy-now-modal__span">NOW</span>
+  </h2>
+  <ul class="buy-now-modal__box_li">
+    <li class="buy-now-modal__list">
+      <img
+        class="buy-now-modal__img"
+        srcset="/TeamProject-HTML-CSS/assets/modal-100g-img-9e8a10a6.png 1x, /TeamProject-HTML-CSS/assets/modal-100g-img@2x-82abd1f6.png 2x"
+        src="/TeamProject-HTML-CSS/assets/modal-100g-img-9e8a10a6.png"
+        alt="milk chocolate"
+        width="84"
+        height="69"
+      />
+      <button type="button" class="buy-now-modal__p">100 g</button>
+    </li>
+    <li class="buy-now-modal__list">
+      <img
+        class="buy-now-modal__img"
+        srcset="/TeamProject-HTML-CSS/assets/modal-200g-img-4a07cea9.png 1x, /TeamProject-HTML-CSS/assets/modal-200g-img@2x-f8a53af0.png 2x"
+        src="/TeamProject-HTML-CSS/assets/modal-200g-img-4a07cea9.png"
+        alt="white chocolate"
+        width="84"
+        height="69"
+      />
+      <button type="button" class="buy-now-modal__p">200 g</button>
+    </li>
+    <li class="buy-now-modal__list">
+      <img
+        class="buy-now-modal__img"
+        srcset="/TeamProject-HTML-CSS/assets/modal-300g-img-eb9938ed.png 1x, /TeamProject-HTML-CSS/assets/modal-300g-img@2x-0b5ea610.png 2x"
+        src="/TeamProject-HTML-CSS/assets/modal-300g-img-eb9938ed.png"
+        alt="black chocolate"
+        width="84"
+        height="69"
+      />
+      <button type="button" class="buy-now-modal__p">300 g</button>
+    </li>
+  </ul>
+  <label class="buy-now-modal__label" for="name">Personal information</label>
+  <div class="buy-now-modal__name">
+    <input
+      class="buy-now-modal__input"
+      type="text"
+      name="name"
+      id="user-name"
+      required
+      pattern="[a-zA-Z]+"
+      placeholder="Name"
+    />
+    <input
+      class="buy-now-modal__input"
+      type="text"
+      name="surname"
+      required
+      pattern="[a-zA-Z]+"
+      placeholder="Surname"
+    />
+  </div>
+  <label class="buy-now-modal__label" for="email">Email</label>
+  <input
+    class="buy-now-modal__input"
+    type="email"
+    name="email"
+    id="user-email"
+    required
+    pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$"
+    placeholder="Enter your email"
+  />
+  <label class="buy-now-modal__label" for="tel">Phone number</label>
+  <div class="buy-now-modal__tel_box">
+    <input
+      class="buy-now-modal__input buy-now-modal__input_tel"
+      type="tel"
+      name="tel"
+      id="user-tel"
+      required
+      pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+      placeholder="Phone number"
+    />
+    <div class="buy-now-modal__box_icon">
+      <svg class="buy-now-modal__tel_icon" width="24" height="18">
+        <use href="/TeamProject-HTML-CSS/assets/sprite-76b01e8c.svg#flag-icon"></use>
+      </svg>
+      <p>+380</p>
+    </div>
+  </div>
+  <label class="buy-now-modal__label" for="card">Card number </label>
+  <div class="buy-now-modal__card_box">
+    <input
+      class="buy-now-modal__input"
+      type="text"
+      name="card"
+      id="card"
+      required
+      pattern="[0-9]{13,16}"
+      placeholder="Enter card"
+    />
+    <svg class="buy-now-modal__card_icon" width="32" height="21">
+      <use href="/TeamProject-HTML-CSS/assets/sprite-76b01e8c.svg#mastercard-icon"></use>
+    </svg>
+  </div>
+  <label class="buy-now-modal__label" for="comment">Comment</label>
+  <textarea
+    class="buy-now-modal__textarea"
+    name="comment"
+    id="user-comment"
+    placeholder="Enter text"
+  ></textarea>
+  <button class="buy-now-modal__button" type="submit">Submit</button>
+</form>
+
+
+      <!-- Илья Мельниченко -->
+            <footer id="footer">
+        <div class="container">
+          <div class="footer-flex">
+          <strong class="tagline">
+              <span>Chocolate</span> a delicious cure for a bad day</strong>
+          <address class="footer-address">
+              <div>
+                  <p>Contact us</p>
+                  <ul class="footer-contact-list">
+                    <li class="footer-contact-item"><a class="footer-contact-link" href="tel:380684439426">+380 (68) 443-94-26</a></li>
+                    <li class="footer-contact-item">
+                      <a class="footer-contact-link" href="mailto:simplychoc@gmail.com">simplychoc@gmail.com</a>
+                    </li>
+                  </ul>
+              </div>
+            
+            <ul class="footer-socmedia-list">
+              <li class="footer-socmedia-item">
+                <a class="footer-socmedia-link" href="https://www.instagram.com/" target="_blank">
+                  <svg class="footer-socmedia-icon">
+                    <use href="/TeamProject-HTML-CSS/assets/sprite-76b01e8c.svg#instagram-icon" ></use>
+                  </svg>
+                </a>
+              </li>
+    
+              <li class="footer-socmedia-item">
+                <a class="footer-socmedia-link" href="https://uk-ua.facebook.com/" target="_blank">
+                  <svg class="footer-socmedia-icon">
+                    <use href="/TeamProject-HTML-CSS/assets/sprite-76b01e8c.svg#twitter-icon" ></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </address>
+          
+          </div>
+          <nav>
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item"><a class="footer-nav-link" href="#header">Home</a></li>
+              <li class="footer-nav-item"><a class="footer-nav-link" href="#how-its-made">How it’s made?</a></li>
+              <li class="footer-nav-item"><a class="footer-nav-link" href="#our-products">Our products</a></li>
+              <li class="footer-nav-item"><a class="footer-nav-link" href="#top-sellers">Top sellers</a></li>
+              <li class="footer-nav-item"><a class="footer-nav-link" href="#chocolate-is-loved">Chocolate is loved</a></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+  
+
+    </main>
+
+    <!-- Mobile menu Alona Karas-->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+  <div class="menu-wrapper">
+    <button class="menu-toggle js-close-menu" type="button" >
+      <svg width="28" height="28">
+        <use href="/TeamProject-HTML-CSS/assets/sprite-76b01e8c.svg#menu-modal-close-icon"></use>
+      </svg>
+    </button>
+    <ul class="mobile-menu-list list">
+      <li class="mobile-list-item">
+        <a href="#header" class="mobile-list-link">Home</a>
+      </li>
+      <li class="mobile-list-item">
+        <a href="" class="mobile-list-link">How it's made?</a>
+      </li>
+      <li class="mobile-list-item">
+        <a href="" class="mobile-list-link">Our products</a>
+      </li>
+      <li class="mobile-list-item">
+        <a href="" class="mobile-list-link">Top sellers</a>
+      </li>
+      <li class="mobile-list-item">
+        <a href="" class="mobile-list-link">Chocolate is loved</a>
+      </li>
+    </ul>
+    <ul class="mobile-socials-list list">
+      <li class="mobile-socials-item">
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="mobile-socials-link"
+          aria-label=""
+        >
+          <svg width="24" height="24">
+            <use href="/TeamProject-HTML-CSS/assets/sprite-76b01e8c.svg#instagram-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="mobile-socials-item">
+        <a
+          href=""
+          target="_blank"
+          rel="noopener noreferrer"
+          class="mobile-socials-link"
+          aria-label=""
+        >
+          <svg width="24" height="24">
+            <use href="/TeamProject-HTML-CSS/assets/sprite-76b01e8c.svg#twitter-icon"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+    <!-- Скрипт слайдера -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- body scroll lock library -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Головний скрипт -->
+    
+    <div class="overlay js-overlay-modal"></div>
+  </body>
+</html>
